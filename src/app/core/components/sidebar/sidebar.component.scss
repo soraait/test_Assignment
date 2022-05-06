@@ -1,0 +1,55 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #ffffff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 50px 0px 0px;
+  width: 90px;
+  height: 100%;
+  z-index: 2;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  &--png {
+    width: 53px;
+    height: 53px;
+  }
+}
+
+.place {
+  width: 90px;
+  height: 90px;
+}
+
+.box {
+  cursor: pointer;
+}
+.box_icon {
+  width: 36px;
+  height: 36px;
+  background: #0f1e56;
+  border-radius: 10px;
+  &--svg {
+    width: 10.23px;
+    height: 7.36px;
+  }
+}
+
+.place_text {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+
+  .sidebar {
+    display: none;
+  }
+}
